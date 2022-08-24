@@ -87,7 +87,7 @@ DATABASES = {
         'USER': 'omelay',
         'PASSWORD': '123',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 

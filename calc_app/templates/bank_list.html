@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bank_list</title>
+</head>
+<body>
+<form method="GET" action="">
+    <label for="credit">Сумма кредита:</label>
+    <input type="number" min="0" name="credit">
+    <label for="first_payment">Первоначальный взнос:</label>
+    <input type="number" min="0" name="first_payment">
+    <label for="term">Срок в годах:</label>
+    <input type="number" min="0" name="term">
+    <button type="submit">Send me!</button>
+</form>
+{% for bank in banks %}
+    <li>{{ bank.name }}
+        Минимальная ставка: {{ bank.rate_min }}
+        Ежемесячный платеж: {{ bank.monthly_payment }}
+    </li>
+
+{% endfor %}
+</body>
+</html>
