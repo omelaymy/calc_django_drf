@@ -16,7 +16,7 @@
 ### Локальный запуск приложения
 **Клонировать репозиторий с Github** 
 - ssh: git@github.com:omelaymy/calc_django_drf.git
-- hhtps: [project on github](https://github.com/omelaymy/calc_django_drf.git)
+- https: [project on github](https://github.com/omelaymy/calc_django_drf.git)
 - - -
 
 
