@@ -40,7 +40,7 @@ class BankList(ListView):
 
 # CRUD drf
 class BankViewSet(viewsets.ModelViewSet):
-    queryset = Bank.objects.all()
+    queryset = Bank.objects.all().order_by('rate_min')
     serializer_class = BankSerializerAPI
     permission_classes = [permissions.IsAdminUser]
 
