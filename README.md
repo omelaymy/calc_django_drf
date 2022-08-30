@@ -30,7 +30,7 @@
 
 **Остановить контейнеры**
 
-`sudo docker-compose stop`
+`docker-compose stop`
 - - -
 Сервис буден доступен по ссылкам:
 
